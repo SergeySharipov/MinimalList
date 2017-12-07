@@ -1,0 +1,17 @@
+ @IBAction func firstStepper(_ sender: UIStepper) {
+        switch sender.tag {
+        case 1:
+            firstLabel.text = Int(sender.value).description
+        case 2:
+            secondLabel.text = Int(sender.value).description
+        case 3:
+            thirdLabel.text = Int(sender.value).description
+        case 4:
+            fourthLabel.text = Int(sender.value).description
+        case 5:
+            fifthLabel.text = Int(sender.value).description
+        default:
+            firstLabel.text=""
+        }
+        
+    }
